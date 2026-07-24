@@ -1,8 +1,26 @@
 aid: beacon-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beacon-software.png
 name: Beacon (Software)
-description: 'Beacon (Software) is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Beacon Software is a permanent software holding company, founded in 2024
+  and led by CEO Nilam Ganenthiran, that acquires and operates essential vertical software
+  businesses serving Main Street industries. Rather than flipping acquisitions, Beacon holds
+  companies indefinitely, keeping each founder''s team and brand intact while providing a
+  centralized operating platform — engineering support, AI integration, sales, finance, and
+  a network of portfolio operators — to help them better serve their customers. Backed by
+  General Catalyst, Lightspeed Venture Partners, and D1 Capital. Beacon is an acquisition and
+  operating company, not a developer-facing platform: it publishes no public API, SDKs, or
+  developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/beacon-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +29,35 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: 'Enrichment pass 2026-07-18: identified as beaconsoftware.com (permanent software
+  holding company). No public API / developer surface exists — all /.well-known/ probes 404.
+  Only identity hygiene + live domain-security probe are applicable; no API artifacts fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- Software Holding Company
+- Vertical SaaS
+- Private Equity
+- Mergers and Acquisitions
+- AI
+- Main Street
 apis: []
+common:
+- type: DomainSecurity
+  url: security/beacon-software-domain-security.yml
+- type: Website
+  url: https://www.beaconsoftware.com
+- type: Support
+  url: mailto:info@beaconsoftware.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
