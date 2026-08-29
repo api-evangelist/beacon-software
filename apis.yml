@@ -33,6 +33,8 @@ description: 'Beacon Software is a permanent software holding company, founded i
   operating company, not a developer-facing platform: it publishes no public API, SDKs, or
   developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/beacon-software/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
