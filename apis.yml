@@ -47,7 +47,7 @@ x-notes: 'Enrichment pass 2026-07-18: identified as beaconsoftware.com (permanen
   Only identity hygiene + live domain-security probe are applicable; no API artifacts fabricated.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Software Holding Company
@@ -66,6 +66,8 @@ tags_raw:
 - Main Street
 apis: []
 common:
+- url: https://www.beaconholdings.com/news
+  type: Blog
 - type: DomainSecurity
   url: security/beacon-software-domain-security.yml
 - type: Website
